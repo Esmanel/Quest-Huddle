@@ -1,0 +1,62 @@
+main {
+    display: flex;
+    flex-direction: column;
+    max-height: 100vh;
+}
+
+.logomarca img {
+    width: 200px;
+    padding-bottom: 50px;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.conteudo img {
+    width: 1800px;
+}
+
+.conteudo .informacoes {
+    font-family: 'Poppins', sans-serif;
+    /* margin: 0 0 100px; */
+
+}
+
+.conteudo .informacoes h1 {
+    color: #ffffff;
+    font-size: 60px;
+    padding-bottom: 40px;
+}
+
+.conteudo .informacoes p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 20px;
+    padding-bottom: 60px;
+}
+
+.conteudo .informacoes .botao {
+    color: hsl(257, 40%, 49%);
+    padding: 15px 60px;
+    background-color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    box-shadow: 0px 0px 30px -5px hsl(257, 41%, 9%);
+}
+
+.rodapé {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.rodapé img {
+    width: 30px;
+}
